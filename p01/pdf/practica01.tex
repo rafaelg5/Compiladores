@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[shortlabels]{enumitem}
+\usepackage[spanish]{babel}
+\usepackage[left=3cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+\title{Sistema de procesamiento de lenguaje}
+\date{\today}
+\author{Rafael de Jesús García García}
+
+\begin{document}
+  \pagenumbering{arabic}
+  \maketitle
+
+  \section{Desarrollo}
+
+    \begin{itemize}
+      \item [2.]
+      \begin{enumerate}[a)]
+        \item El archivo 'stdio.h' se encuentra en /usr/include/stdio.h. Ahí
+        se encuentran todas las definiciones de funciones, macros, variables y
+        constantes. \\
+        Las funciones se pueden clasificar en dos categorías: funciones de
+        manipulación de ficheros y funciones de manipulación de entradas y salidas.
+        \item El archivo .i contiene todas las definiciones que se encuentran en
+        programa.c, la diferencia es que los archivos .h se incluyen (en este caso
+        solo tenemos a stdio.h), las macros son reemplazadas y los comentarios
+        son eliminados.
+        \item Es el programa fuente modificado, lo que está entre el Preprocesador
+        y el Compilador.
+      \end{enumerate}
+      \item [3.]
+      \begin{enumerate}[a)]
+        \item Activa todos los mensajes de advertencias del compilador.
+        \item Generar código ensamblador.
+        \item Contiene el programa en ensamblador y la extensión es '.s'.
+        \item Al programa objeto en lenguaje ensamblador.
+      \end{enumerate}
+      \item [4.]
+      \begin{enumerate}[a)]
+        \item Se llama al PO en lenguaje ensamblador con el ensamblador de GNU.
+        \item Código máquina relocalizable.
+        \item Código objeto porque se usó la bandera -o
+      \end{enumerate}
+      \item [5.]
+      \begin{itemize}
+        \item \detokenize{crt1.o: /usr/lib64/crt1.o}
+        \item \detokenize{crti.o: /usr/lib64/crti.o}
+        \item \detokenize{crtbegin.o: /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtbegin.o}
+        \item \detokenize{crtend.o: /usr/lib/gcc/x86_64-redhat-linux/4.8.3/crtend.o}
+        \item \detokenize{crtn.o: /usr/lib64/crtn.o}
+      \end{itemize}
+      \item [6.] Debería generarse código máquina, sin embargo el comando no es
+      correcto. 
+    \end{itemize}
+\end{document}
