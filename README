@@ -1,0 +1,8 @@
+Integrantes del equipo:
+- García García Rafael de Jesús
+- Rivera López Jorge Erick
+
+Uso del programa:
+- make: compilar
+- make clean: borrar archivos creados
+- ./parser [archivo]: ejecutar el programa

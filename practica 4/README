@@ -1,0 +1,16 @@
+Compilar:
+- make all
+
+Ejecutar:
+- ./parser [nombre_archivo]
+
+
+Limpiar:
+- make clean
+
+
+**** Dudas ****
+
+La práctica pide 3 tipos de alcance: global, local y parámetro de función, sin embargo, adentro de bloques de función no se declaran en ningún momento variables. ¿En qué parte se usa el alcance local?
+
+***************
